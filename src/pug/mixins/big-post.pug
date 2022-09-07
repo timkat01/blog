@@ -1,0 +1,10 @@
+mixin big-post(title, edate, img, desc)
+	.big-post
+		.big-post__header
+			h2.big-post__title #{title}
+			span.even-date #{edate}
+		img(src=img class="big-post__img")
+		p.description #{desc}
+		.big-post__footer
+			include ./../sections/btn-readmore.pug
+			include ./../sections/post-icon.pug

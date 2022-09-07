@@ -1,0 +1,22 @@
+.header {
+	padding: 50px 60px;
+	border-bottom: 1px solid #DDE2E7;
+}
+
+.header__row {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.header__search {
+	display: flex;
+	align-items: center;
+}
+
+.header__search-icon  {
+	margin-right: 45px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+}

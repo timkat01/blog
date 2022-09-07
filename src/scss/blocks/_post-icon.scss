@@ -1,0 +1,17 @@
+.post-icon {
+	display: flex;
+	align-items: center;
+}
+
+.post-icon__link {
+	margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+	img {
+		width: 22px;
+		height: 22px;
+	}
+}

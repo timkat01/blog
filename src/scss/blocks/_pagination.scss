@@ -1,0 +1,41 @@
+.pagination {
+	padding-top: 40px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: flex-end;
+	
+	ul {
+		margin-right: 300px;
+	}
+}
+.active {
+	color: $active;
+}
+.pagination__list {
+	display: flex;
+
+	li {
+		margin-right: 20px;
+	}
+}
+.pagination-list__link {
+	display: inline;
+	text-decoration: none;
+
+	font-weight: 700;
+	font-size: 18px;
+	color: $black;
+}
+.pagination__older {
+
+}
+.pagination-older__link {
+	display: inline;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-weight: 700;
+	font-size: 14px;
+	color: $black;
+
+}
